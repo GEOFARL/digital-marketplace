@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@payloadcms/bundler-webpack": "^1.0.5",
+    "@payloadcms/db-mongodb": "^1.0.8",
     "@payloadcms/richtext-slate": "^1.2.0",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-separator": "^1.0.3",
@@ -37,6 +39,7 @@
     "nodemon": "^3.0.1",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
+    "ts-node": "^10.9.1",
     "typescript": "^5"
   }
 }
