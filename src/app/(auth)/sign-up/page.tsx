@@ -25,10 +25,10 @@ const Page = () => {
     resolver: zodResolver(AuthCredentialsValidator),
   });
 
-  const {} = trpc;
+  const { mutate, isLoading } = trpc.auth.createPayloadUser.useMutation({});
 
   const onSubmit = ({ email, password }: TAuthCredentialsValidator) => {
-    // send data to the server
+    mutate({ email, password });
   };
 
   return (
@@ -74,6 +74,7 @@ const Page = () => {
                     })}
                     placeholder="*********"
                     id="password"
+                    type="password"
                   />
                 </div>
 
