@@ -3,6 +3,7 @@ import MaxWidthWrapper from './MaxWidthWrapper';
 import { Icons } from './Icons';
 import NavItems from './NavItems';
 import { buttonVariants } from './ui/button';
+import Cart from './Cart';
 
 const NavBar = () => {
   const user = null;
@@ -60,6 +61,10 @@ const NavBar = () => {
                       <span className="h-6 w-px bg-gray-200" aria-hidden />
                     </div>
                   )}
+
+                  <div className="ml-4 flow-root lg:ml-6">
+                    <Cart />
+                  </div>
                 </div>
               </div>
             </div>
