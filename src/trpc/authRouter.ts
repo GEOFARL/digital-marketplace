@@ -24,7 +24,6 @@ export const authRouter = router({
         throw new TRPCError({ code: 'CONFLICT' });
       }
 
-      console.log(email, password);
       await payload.create({
         collection: 'users',
         data: {
