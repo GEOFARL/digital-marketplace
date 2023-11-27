@@ -60,6 +60,7 @@ const Page = () => {
       }
 
       router.push('/');
+      router.refresh();
     },
 
     onError: (err) => {

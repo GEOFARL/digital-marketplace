@@ -62,8 +62,6 @@ const VerifyEmail = ({ token }: VerifyEmailProps) => {
       </div>
     );
   }
-
-  // return <div>VerifyEmail</div>;
 };
 
 export default VerifyEmail;
