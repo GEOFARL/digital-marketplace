@@ -1,6 +1,8 @@
 import { Container } from 'lucide-react';
 import { Product } from '../../payload-types';
 
+import * as React from 'react';
+
 import {
   Body,
   Column,
